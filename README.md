@@ -3,6 +3,7 @@
 ![C](https://img.shields.io/badge/C-0E7C86?style=flat&logo=c&logoColor=white)
 ![OpenMP](https://img.shields.io/badge/OpenMP-8A6D2B?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik00IDR2MTZNMTAgNHYxNk0xNiA0djE2Ii8+PHBhdGggZD0iTTQgOGg2TTEwIDE0aDZNMTYgMTBoNCIgc3Ryb2tlLXdpZHRoPSIxLjYiLz48L3N2Zz4=)
 ![CUDA](https://img.shields.io/badge/CUDA-8A6D2B?style=flat&logo=nvidia&logoColor=white)
+![Tesla K80](https://img.shields.io/badge/Tesla%20K80-2E7D5B?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjYiIHk9IjYiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgcng9IjIiLz48cmVjdCB4PSI5LjUiIHk9IjkuNSIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiIGZpbGw9IndoaXRlIiBzdHJva2U9Im5vbmUiLz48cGF0aCBkPSJNOSAydjNNMTUgMnYzTTkgMTl2M00xNSAxOXYzTTIgOWgzTTIgMTVoM00xOSA5aDNNMTkgMTVoMyIvPjwvc3ZnPg==)
 
 Coursework repository for **ECE415 — High-Performance Computing** at the **University of Thessaly**. The labs start with CPU-side profiling and loop-level optimization, then move through OpenMP, CUDA kernels, CUDA streams, memory-hierarchy tuning, and multi-GPU execution.
 
