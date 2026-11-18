@@ -17,20 +17,20 @@ Coursework repository for **ECE415 — High-Performance Computing** at the **Uni
 | CUDA kernels | 2D convolution and CLAHE implementations covering block sizing, memory access patterns, streams, events, and profiling. |
 | Final application | A galaxy-style N-body simulator with CPU, OpenMP, CUDA, stream, shared-memory, coarsening, multi-GPU, and divergence-reduction versions. |
 
-## Standout work: N-body simulator
+## Highlight: N-body simulator
 
-The strongest part of the repository is **Lab 5**, where the final assignment builds an N-body simulator for independent galaxy-style particle systems. The lab starts from a sequential gravitational simulation and grows into a full CPU/OpenMP/CUDA performance study with multiple GPU implementations and correctness comparisons.
+**Lab 5** is an N-body simulator for independent galaxy-style particle systems. It starts from a sequential gravity simulation and becomes a CPU/OpenMP/CUDA performance study with several GPU versions checked against the CPU output.
 
 <p align="center">
   <img src="docs/images/lab5-nbody-simulation.gif" alt="N-body galaxy simulation visualizer animation" width="100%">
 </p>
 
-Key pieces of the Lab 5 implementation include:
+What it includes:
 
 - **CPU and OpenMP baselines:** sequential and OpenMP implementations provide reference outputs and performance baselines for the GPU work.
 - **CUDA optimization ladder:** the GPU versions explore naive kernels, streams, Structure-of-Arrays layout, shared-memory tiling, fast math/FMA variants, thread coarsening, launch-bound tuning, divergence-reduction variants, and multi-GPU execution.
-- **Measurement workflow:** run logs and CSV summaries are used to compare implementations with throughput plots instead of only raw terminal timings.
-- **Extra visualizer work:** beyond the base simulator, the repository includes a custom dataset generator and an animation of the simulation output.
+- **Measurement workflow:** run logs and CSV summaries feed throughput plots that compare the implementations.
+- **Visualizer:** a custom dataset generator and an animation of the simulation output.
 
 <p align="center">
   <img src="docs/images/lab5-throughput-comparison.png" alt="Lab 5 N-body throughput comparison across CPU and GPU versions" width="85%">
@@ -38,7 +38,7 @@ Key pieces of the Lab 5 implementation include:
 
 ## Course contents
 
-Lab handouts are collected under [`docs/handouts/`](docs/handouts/). Recovered reports for Labs 1–5 are collected under [`docs/reports/`](docs/reports/)
+Lab handouts are collected under [`docs/handouts/`](docs/handouts/). Reports for Labs 1–5 are under [`docs/reports/`](docs/reports/).
 
 <p align="center">
   <img src="docs/images/ece415-lab-map.svg" alt="ECE415 lab map from CPU optimization and OpenMP to CUDA convolution, CLAHE, and N-body simulation" width="100%">
